@@ -40,6 +40,9 @@ That's all. You can start using the package.
 | `:arabicthx`        | `شكرا`                  |
 | `:arabicthanks`     | `شكرا`                  |
 | ------------------- | ----------------------- |
+| `:armenianthx`      | `Շնորհակալություն`      |
+| `:armenianthanks`   | `Շնորհակալություն`      |
+| ------------------- | ----------------------- |
 | `:basquethx`        | `Eskerrik asko`         |
 | `:basquethanks`     | `Eskerrik asko`         |
 | ------------------- | ----------------------- |

@@ -9,6 +9,11 @@ matches:
   - trigger: ':arabicthanks'
     replace: 'شكرا'
 
+  - trigger: ':armenianthx'
+    replace: 'Շնորհակալություն'
+  - trigger: ':armenianthanks'
+    replace: 'Շնորհակալություն'
+
   - trigger: ':basquethx'
     replace: 'Eskerrik asko'
   - trigger: ':basquethanks'
