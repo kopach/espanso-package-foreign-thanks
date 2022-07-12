@@ -138,3 +138,13 @@ matches:
     replace: 'Cảm ơn'
   - trigger: ':vietnamesethanks'
     replace: 'Cảm ơn'
+
+  - trigger: ':urduthx'
+    replace: 'شکریہ'
+  - trigger: ':urduthanks'
+    replace: 'شکریہ'
+
+  - trigger: ':pashtothx'
+    replace: 'ډیره مننه'
+  - trigger: ':pashtothanks'
+    replace: 'ډیره مننه'
