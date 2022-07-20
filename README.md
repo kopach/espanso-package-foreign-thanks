@@ -40,8 +40,8 @@ That's all. You can start using the package.
 | `:arabicthx`        | `شكرا`                  |
 | `:arabicthanks`     | `شكرا`                  |
 | ------------------- | ----------------------- |
-| `:armenianthx`      | `Շնորհակալություն`      |
-| `:armenianthanks`   | `Շնորհակալություն`      |
+| `:armenianthx`      | `Շնորհակալություն`       |
+| `:armenianthanks`   | `Շնորհակալություն`       |
 | ------------------- | ----------------------- |
 | `:basquethx`        | `Eskerrik asko`         |
 | `:basquethanks`     | `Eskerrik asko`         |
@@ -117,6 +117,13 @@ That's all. You can start using the package.
 | ------------------- | ----------------------- |
 | `:vietnamesethx`    | `Cảm ơn`                |
 | `:vietnamesethanks` | `Cảm ơn`                |
+| ------------------- | ----------------------- |
+| `:urduthx`          | `شکریہ`                 |
+| `:urduthanks`       | `شکریہ`                 |
+| ------------------- | ----------------------- |
+| `:pashtothx`        | `ډیره مننه`             |
+| `:pashtothanks`     | `ډیره مننه`             |
+
 
 ## Contribute
 
