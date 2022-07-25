@@ -1,7 +1,7 @@
 {
   "name": "foreign-thanks",
   "displayName": "Foreign Thanks",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "🌐 Espanso package to easy say Thanks in different languages",
   "main": "dist/index.js",
   "scripts": {
