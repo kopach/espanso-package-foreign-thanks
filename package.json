@@ -1,0 +1,32 @@
+{
+  "name": "foreign-thanks",
+  "displayName": "Foreign Thanks",
+  "version": "1.0.0",
+  "description": "🌐 Espanso package to easy say Thanks in different languages",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build src/index.ts",
+    "build:watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kopach/espanso-package-foreign-thanks.git"
+  },
+  "author": "Ihor Kopach (https://kopach.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kopach/espanso-package-foreign-thanks/issues"
+  },
+  "homepage": "https://github.com/kopach/espanso-package-foreign-thanks#readme",
+  "devDependencies": {
+    "@types/node": "15.0.0",
+    "@vercel/ncc": "0.28.3",
+    "raw-loader": "4.0.2",
+    "typescript": "4.2.4"
+  },
+  "keywords": [
+    "greetings",
+    "languages",
+    "phrases"
+  ]
+}
