@@ -17,7 +17,7 @@ ${footer}`;
 }
 
 function getRow(language: string, translation: string) {
-  return `| \`${language}thx\`, \`${language}thanks\` | ${translation} |`;
+  return `| \`:${language}thx\`, \`:${language}thanks\` | ${translation} |`;
 }
 
 function getHeader() {
