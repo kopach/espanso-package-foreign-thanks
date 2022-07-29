@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/kopach/espanso-package-foreign-thanks#readme",
   "devDependencies": {
+    "@types/js-yaml": "4.0.5",
     "@types/node": "15.0.0",
     "@vercel/ncc": "0.28.3",
     "raw-loader": "4.0.2",
@@ -27,6 +28,10 @@
   "keywords": [
     "greetings",
     "languages",
-    "phrases"
-  ]
+    "phrases",
+    "communication"
+  ],
+  "dependencies": {
+    "js-yaml": "4.1.0"
+  }
 }

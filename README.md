@@ -28,34 +28,34 @@ That's all. You can start using the package.
 
 | Keywords | Replaced |
 | -------- | -------- |
-| `:arabicthx`, `:arabicthanks` | شكرا |
-| `:armenianthx`, `:armenianthanks` | Շնորհակալություն |
-| `:basquethx`, `:basquethanks` | Eskerrik asko |
-| `:canadianthx`, `:canadianthanks` | thanks, eh. |
-| `:chinesethx`, `:chinesethanks` | 谢谢 |
-| `:czechthx`, `:czechthanks` | Díky |
-| `:dutchthx`, `:dutchthanks` | Dank je wel |
-| `:filipinothx`, `:filipinothanks` | Salamat |
-| `:finnishthx`, `:finnishthanks` | Kiitos |
-| `:frenchthx`, `:frenchthanks` | Merci |
-| `:germanthx`, `:germanthanks` | Danke |
-| `:hindithx`, `:hindithanks` | धन्यवाद |
-| `:icelandicthx`, `:icelandicthanks` | Takk |
-| `:indonesianthx`, `:indonesianthanks` | Terima kasih |
-| `:italianthx`, `:italianthanks` | Grazie |
-| `:japanesethx`, `:japanesethanks` | ありがとうございます |
-| `:klingonthx`, `:klingonthanks` | Qa tlho' |
-| `:koreanthx`, `:koreanthanks` | 감사합니다 |
-| `:pashtothx`, `:pashtothanks` | ډیره مننه |
-| `:persianthx`, `:persianthanks` | متشکرم |
-| `:polishthx`, `:polishthanks` | Dzięki |
-| `:romanianthx`, `:romanianthanks` | Multumesc |
-| `:spanishthx`, `:spanishthanks` | Gracias |
-| `:swedishthx`, `:swedishthanks` | Tack |
-| `:turkishthx`, `:turkishthanks` | Sağol |
-| `:ukrainianthx`, `:ukrainianthanks` | Дякую |
-| `:urduthx`, `:urduthanks` | شکریہ |
-| `:vietnamesethx`, `:vietnamesethanks` | Cảm ơn |
+| `:arthx`, `:arabicthx`, `:arabicthanks` | شكرا |
+| `:hythx`, `:armenianthx`, `:armenianthanks` | Շնորհակալություն |
+| `:euthx`, `:basquethx`, `:basquethanks` | Eskerrik asko |
+| `:cathx`, `:canadianthx`, `:canadianthanks` | thanks, eh. |
+| `:zhthx`, `:chinesethx`, `:chinesethanks` | 谢谢 |
+| `:csthx`, `:czechthx`, `:czechthanks` | Díky |
+| `:nlthx`, `:dutchthx`, `:dutchthanks` | Dank je wel |
+| `:tlthx`, `:filipinothx`, `:filipinothanks` | Salamat |
+| `:fithx`, `:finnishthx`, `:finnishthanks` | Kiitos |
+| `:frthx`, `:frenchthx`, `:frenchthanks` | Merci |
+| `:dethx`, `:germanthx`, `:germanthanks` | Danke |
+| `:hithx`, `:hindithx`, `:hindithanks` | धन्यवाद |
+| `:isthx`, `:icelandicthx`, `:icelandicthanks` | Takk |
+| `:idthx`, `:indonesianthx`, `:indonesianthanks` | Terima kasih |
+| `:itthx`, `:italianthx`, `:italianthanks` | Grazie |
+| `:jathx`, `:japanesethx`, `:japanesethanks` | ありがとうございます |
+| `:tlhthx`, `:klingonthx`, `:klingonthanks` | Qa tlho' |
+| `:kothx`, `:koreanthx`, `:koreanthanks` | 감사합니다 |
+| `:psthx`, `:pashtothx`, `:pashtothanks` | ډیره مننه |
+| `:fathx`, `:persianthx`, `:persianthanks` | متشکرم |
+| `:plthx`, `:polishthx`, `:polishthanks` | Dzięki |
+| `:rothx`, `:romanianthx`, `:romanianthanks` | Multumesc |
+| `:esthx`, `:spanishthx`, `:spanishthanks` | Gracias |
+| `:svthx`, `:swedishthx`, `:swedishthanks` | Tack |
+| `:trthx`, `:turkishthx`, `:turkishthanks` | Sağol |
+| `:ukthx`, `:ukrainianthx`, `:ukrainianthanks` | Дякую |
+| `:urthx`, `:urduthx`, `:urduthanks` | شکریہ |
+| `:vithx`, `:vietnamesethx`, `:vietnamesethanks` | Cảm ơn |
 
 ## Contribute
 

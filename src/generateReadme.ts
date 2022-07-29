@@ -1,7 +1,8 @@
+import { dictionary, DictionaryRecord } from './dictionary';
+
 export function generateReadme() {
   const header = getHeader();
   const footer = getFooter();
-  const dictionary = require('./dictionary.json');
 
   return `${header}
 
@@ -9,15 +10,13 @@ export function generateReadme() {
 
 | Keywords | Replaced |
 | -------- | -------- |
-${Object.keys(dictionary)
-  .map((lang) => getRow(lang, dictionary[lang]))
-  .join('\n')}
+${dictionary.map((record) => getRow(record)).join('\n')}
 
 ${footer}`;
 }
 
-function getRow(language: string, translation: string) {
-  return `| \`:${language}thx\`, \`:${language}thanks\` | ${translation} |`;
+function getRow({ name, ISOkey, value }: DictionaryRecord) {
+  return `| \`:${ISOkey}thx\`, \`:${name}thx\`, \`:${name}thanks\` | ${value} |`;
 }
 
 function getHeader() {

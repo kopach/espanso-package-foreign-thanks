@@ -1,14 +1,28 @@
-export function generatePackageYML() {
-  const dictionary = require('./dictionary.json');
+import { dump } from 'js-yaml';
+import { dictionary, DictionaryRecord } from './dictionary';
 
-  return `matches:
-${Object.keys(dictionary)
-  .map((lang) => getMatch(lang, dictionary[lang]))
-  .join('\n')}`;
+type EspansoYML = {
+  trigger: string;
+  replace: string;
+};
+export function generatePackageYML() {
+  const matches = {
+    matches: dictionary.reduce((acc: EspansoYML[], record) => {
+      return [...acc, ...getMatch(record)];
+    }, []),
+  };
+
+  return dump(matches, { sortKeys: true });
 }
-function getMatch(language: string, translation: string) {
-  return `  - trigger: ':${language}thx'
-    replace: '${translation}'
-  - trigger: ':${language}thanks'
-    replace: '${translation}'`;
+
+function getMatch({
+  name,
+  value: replace,
+  ISOkey,
+}: DictionaryRecord): EspansoYML[] {
+  return [
+    { trigger: `:${ISOkey}thx`, replace },
+    { trigger: `:${name}thx`, replace },
+    { trigger: `:${name}thanks`, replace },
+  ];
 }
