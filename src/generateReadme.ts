@@ -30,7 +30,7 @@ function getHeader() {
 
 <h1 align="center">
 
-![demo](./assets/demo.gif)
+![demo](https://github.com/kopach/espanso-package-foreign-thanks/blob/main/assets/demo.gif)
 
 </h1>
 
