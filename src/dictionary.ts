@@ -9,7 +9,6 @@ export const dictionary: DictionaryRecord[] = [
   { name: 'armenian', ISOkey: 'hy', value: 'Շնորհակալություն' },
   { name: 'basque', ISOkey: 'eu', value: 'Eskerrik asko' },
   { name: 'belarusian', ISOkey: 'be', value: 'Дзякуй' },
-  { name: 'canadian', ISOkey: 'ca', value: 'thanks, eh.' },
   { name: 'chinese', ISOkey: 'zh', value: '谢谢' },
   { name: 'czech', ISOkey: 'cs', value: 'Díky' },
   { name: 'dutch', ISOkey: 'nl', value: 'Dank je wel' },
