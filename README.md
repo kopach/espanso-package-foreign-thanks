@@ -18,6 +18,8 @@ Make sure you have already installed [Espanso](https://espanso.org/install) firs
 
 ### Install with `espanso install`
 
+> https://hub.espanso.org/foreign-thanks
+
 ```sh
 espanso install foreign-thanks
 ```
