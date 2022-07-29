@@ -34,7 +34,6 @@ That's all. You can start using the package.
 | `:hythx`, `:armenianthx`, `:armenianthanks` | Շնորհակալություն |
 | `:euthx`, `:basquethx`, `:basquethanks` | Eskerrik asko |
 | `:bethx`, `:belarusianthx`, `:belarusianthanks` | Дзякуй |
-| `:cathx`, `:canadianthx`, `:canadianthanks` | thanks, eh. |
 | `:zhthx`, `:chinesethx`, `:chinesethanks` | 谢谢 |
 | `:csthx`, `:czechthx`, `:czechthanks` | Díky |
 | `:nlthx`, `:dutchthx`, `:dutchthanks` | Dank je wel |
