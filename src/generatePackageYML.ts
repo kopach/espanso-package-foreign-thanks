@@ -2,9 +2,8 @@ import { dump } from 'js-yaml';
 import { dictionary, DictionaryRecord } from './dictionary';
 
 type EspansoYML = {
-  trigger: string;
   replace: string;
-};
+} & ({ trigger: string } | { triggers: string[] });
 export function generatePackageYML() {
   const matches = {
     matches: dictionary.reduce((acc: EspansoYML[], record) => {
@@ -21,8 +20,6 @@ function getMatch({
   ISOkey,
 }: DictionaryRecord): EspansoYML[] {
   return [
-    { trigger: `:${ISOkey}thx`, replace },
-    { trigger: `:${name}thx`, replace },
-    { trigger: `:${name}thanks`, replace },
+    { triggers: [`:${ISOkey}thx`, `:${name}thx`, `:${name}thanks`], replace },
   ];
 }
