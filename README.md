@@ -1,3 +1,5 @@
+[![#StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://github.com/vshymanskyy/StandWithUkraine#readme)
+
 # 🌐 Foreign Thanks
 
 [Espanso](https://espanso.org) package to easy say Thanks in different languages.
