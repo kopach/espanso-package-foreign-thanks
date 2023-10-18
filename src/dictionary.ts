@@ -16,6 +16,7 @@ export const dictionary: DictionaryRecord[] = [
   { name: 'finnish', ISOkey: 'fi', value: 'Kiitos' },
   { name: 'french', ISOkey: 'fr', value: 'Merci' },
   { name: 'german', ISOkey: 'de', value: 'Danke' },
+	{ name: 'hebrew', ISOkey: 'he', value: 'תודה' },
   { name: 'hindi', ISOkey: 'hi', value: 'धन्यवाद' },
   { name: 'icelandic', ISOkey: 'is', value: 'Takk' },
   { name: 'indonesian', ISOkey: 'id', value: 'Terima kasih' },
